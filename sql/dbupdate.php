@@ -1,0 +1,12 @@
+<#1>
+<?php
+\srag\Plugins\TPMS\Repository::getInstance()->installTables();
+?>
+<#2>
+<?php
+\srag\Plugins\TPMS\EventHandling\Infrastructure\Persistence\ActiveRecord\EventStoreAR::updateDB();
+?>
+<#3>
+<?php
+srag\CQRS\TPMS\Projection\Persistence\ActiveRecord\LedgerAR::updateDB();
+?>

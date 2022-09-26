@@ -1,0 +1,5 @@
+config_configuration#:#Konfiguration
+config_configuration_saved#:#Konfiguration gespeichert
+config_save#:#Speichern
+cronjob_description#:#Schreibt gespeicherte Lernfortschrittsdaten in eine XML-Datei und schickt diese an den TPMS Learning Record Storage.
+config_url#:#URL

@@ -1,0 +1,5 @@
+config_configuration#:#Configuration
+config_configuration_saved#:#Configuration saved
+config_save#:#Save
+cronjob_description#:#Writes recorded Learning Progress updates into an xml file and sends it to the TPMS Learning Record Storage.
+config_url#:#URL
