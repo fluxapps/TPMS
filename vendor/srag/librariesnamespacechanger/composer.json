@@ -1,0 +1,25 @@
+{
+  "name": "srag/librariesnamespacechanger",
+  "description": "Change namespace of libraries to plugin namespace",
+  "version": "0.17.0",
+  "type": "library",
+  "keywords": [
+    "changer",
+    "libraries",
+    "namespace"
+  ],
+  "license": "GPL-3.0-only",
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "srag\\LibrariesNamespaceChanger\\": "src/"
+    }
+  },
+  "config": {
+    "classmap-authoritative": true,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

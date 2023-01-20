@@ -19,3 +19,6 @@ Update, activate and config the plugin in the ILIAS Plugin Administration
 - TPMS_SFTP_HOST=000.000.000.000;
 - TPMS_SFTP_USER=abc;
 - TPMS_SFTP_PASSWORD=abc;
+
+### Maintenance
+This plugin will be replaced in future with microservices using https://github.com/fluxfw/flux-ilias-rest-api 

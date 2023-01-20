@@ -1,32 +1,13 @@
 {
-  "name": "srag/Plugins/TPMS",
-  "description": "",
+  "name": "fluxapps/tpms",
   "type": "project",
-  "keywords": [
-    "ILIAS",
-    "Plugin"
-  ],
-  "homepage": "https://github.com/studer-raimann/TPMS",
-  "license": "GPL-3.0-only",
-  "authors": [
-    {
-      "name": "studer + raimann ag - Team Custom 1",
-      "email": "support-custom1@studer-raimann.ch",
-      "homepage": "https://studer-raimann.ch",
-      "role": "Developer"
-    }
-  ],
-  "support": {
-    "issues": "https://plugins.studer-raimann.ch/goto.php?target=uihk_srsu_"
-  },
   "require": {
     "php": ">=7.0",
     "srag/cqrs": ">=1.2.1",
     "srag/activerecordconfig": ">=0.1.0",
     "srag/custominputguis": ">=0.1.0",
     "srag/dic": ">=0.1.0",
-    "srag/librariesnamespacechanger": ">=0.1.0",
-    "srag/removeplugindataconfirm": ">=0.1.0"
+    "srag/librariesnamespacechanger": ">=0.1.0"
   },
   "autoload": {
     "psr-4": {
@@ -42,7 +23,6 @@
     "sort-packages": true
   },
   "scripts": {
-    "pre-autoload-dump": "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces",
-    "post-update-cmd": "srag\\LibrariesNamespaceChanger\\PHP72Backport::PHP72Backport"
+    "pre-autoload-dump": "srag\\LibrariesNamespaceChanger\\LibrariesNamespaceChanger::rewriteLibrariesNamespaces"
   }
 }

@@ -8,7 +8,6 @@ use srag\Plugins\TPMS\EventHandling\Infrastructure\Persistence\ilDBEventStore;
 use srag\Plugins\TPMS\EventHandling\ValueObject\LearningProgress;
 use srag\Plugins\TPMS\Exception\TPMSException;
 use srag\Plugins\TPMS\Utils\TPMSTrait;
-use srag\RemovePluginDataConfirm\TPMS\PluginUninstallTrait;
 
 /**
  * Class ilTPMSPlugin
@@ -19,8 +18,6 @@ use srag\RemovePluginDataConfirm\TPMS\PluginUninstallTrait;
  */
 class ilTPMSPlugin extends ilCronHookPlugin
 {
-
-    use PluginUninstallTrait;
     use TPMSTrait;
     const PLUGIN_ID = "tpms";
     const PLUGIN_NAME = "TPMS";
@@ -120,8 +117,6 @@ class ilTPMSPlugin extends ilCronHookPlugin
     public function updateLanguages(/*?array*/ $a_lang_keys = null)/*:void*/
     {
         parent::updateLanguages($a_lang_keys);
-
-        $this->installRemovePluginDataConfirmLanguages();
     }
 
 
