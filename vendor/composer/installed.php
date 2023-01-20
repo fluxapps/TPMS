@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '35699c8a9ee200ecb11ee8a94809b389545cb8a3',
+        'reference' => 'fcb350866620df72a455eaeaadc38be378226475',
         'name' => 'fluxapps/tpms',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '35699c8a9ee200ecb11ee8a94809b389545cb8a3',
+            'reference' => 'fcb350866620df72a455eaeaadc38be378226475',
             'dev_requirement' => false,
         ),
         'paragonie/random_compat' => array(
